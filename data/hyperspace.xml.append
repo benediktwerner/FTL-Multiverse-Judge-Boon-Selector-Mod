@@ -1,0 +1,70 @@
+<mod:findLike type="events">
+    <mod:findName type="req" name="ANY_BOON">
+        <mod:setAttributes name="ANY_BOON_LAST_RUN" />
+    </mod:findName>
+</mod:findLike>
+<events>
+    <req name="ANY_BOON">
+        <name>ANY_BOON_LAST_RUN</name>
+        <name>ACH ACH_BOON_A55</name>
+        <name>ACH ACH_BOON_AETHER</name>
+        <name>ACH ACH_BOON_BATTERY</name>
+        <name>ACH ACH_BOON_CHAOS</name>
+        <name>ACH ACH_BOON_CLONEBAY</name>
+        <name>ACH ACH_BOON_CLONECANNON</name>
+        <name>ACH ACH_BOON_CRYSELITE</name>
+        <name>ACH ACH_BOON_CRYSTAL</name>
+        <name>ACH ACH_BOON_CURA</name>
+        <name>ACH ACH_BOON_DOORS</name>
+        <name>ACH ACH_BOON_DRONES</name>
+        <name>ACH ACH_BOON_ENGI</name>
+        <name>ACH ACH_BOON_ENGINES</name>
+        <name>ACH ACH_BOON_GATLING</name>
+        <name>ACH ACH_BOON_GHOST</name>
+        <name>ACH ACH_BOON_HACKING</name>
+        <name>ACH ACH_BOON_HUMAN</name>
+        <name>ACH ACH_BOON_HUMAN_2</name>
+        <name>ACH ACH_BOON_KERNELS</name>
+        <name>ACH ACH_BOON_KIDS</name>
+        <name>ACH ACH_BOON_LANIUS</name>
+        <name>ACH ACH_BOON_LEECH</name>
+        <name>ACH ACH_BOON_LIZARD</name>
+        <name>ACH ACH_BOON_MADNESS</name>
+        <name>ACH ACH_BOON_MANTIS</name>
+        <name>ACH ACH_BOON_MANTIS_2</name>
+        <name>ACH ACH_BOON_MATH</name>
+        <name>ACH ACH_BOON_MEDBAY</name>
+        <name>ACH ACH_BOON_MIND</name>
+        <name>ACH ACH_BOON_MINELAUNCHER</name>
+        <name>ACH ACH_BOON_MODULAR</name>
+        <name>ACH ACH_BOON_MORPH</name>
+        <name>ACH ACH_BOON_NEWGEN</name>
+        <name>ACH ACH_BOON_NEXUS</name>
+        <name>ACH ACH_BOON_OBELISK</name>
+        <name>ACH ACH_BOON_ORCHID</name>
+        <name>ACH ACH_BOON_OSMIAN</name>
+        <name>ACH ACH_BOON_OXYGEN</name>
+        <name>ACH ACH_BOON_PILOT</name>
+        <name>ACH ACH_BOON_PONY</name>
+        <name>ACH ACH_BOON_REACTOR</name>
+        <name>ACH ACH_BOON_RENEGADES</name>
+        <name>ACH ACH_BOON_ROCK</name>
+        <name>ACH ACH_BOON_ROCK_2</name>
+        <name>ACH ACH_BOON_SENSORS</name>
+        <name>ACH ACH_BOON_SENTRY</name>
+        <name>ACH ACH_BOON_SHELL</name>
+        <name>ACH ACH_BOON_SHIELDS</name>
+        <name>ACH ACH_BOON_SLUG</name>
+        <name>ACH ACH_BOON_SLUG_2</name>
+        <name>ACH ACH_BOON_SPECIAL</name>
+        <name>ACH ACH_BOON_SPIDER</name>
+        <name>ACH ACH_BOON_START</name>
+        <name>ACH ACH_BOON_STEALTH</name>
+        <name>ACH ACH_BOON_TELEPORTER</name>
+        <name>ACH ACH_BOON_TEMPORAL</name>
+        <name>ACH ACH_BOON_TRANSPORT</name>
+        <name>ACH ACH_BOON_UNIQUE</name>
+        <name>ACH ACH_BOON_WEAPONS</name>
+        <name>ACH ACH_BOON_ZOLTAN</name>
+    </req>
+</events>

@@ -1,0 +1,323 @@
+<mod:findName type="event" name="BOON_SELECT" panic="true">
+    <mod:setAttributes name="BOON_SELECT_LAST_RUN" />
+</mod:findName>
+<event name="BOON_SELECT">
+    <text>Which Boon do you want to receive?</text>
+    <choice hidden="true">
+        <text>Random Boon</text>
+        <event load="BOON_SELECT_RANDOM"/>
+    </choice>
+    <choice hidden="true" req="ANY_BOON_LAST_RUN">
+        <text>Boon gained in the last run</text>
+        <event load="BOON_SELECT_LAST_RUN"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_HUMAN">
+        <text>Boon of Humanity (Human crew gain 20% resistance to hazards)</text>
+        <event load="BOON_SELECT_HUMAN"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_HUMAN_2">
+        <text>Greater Boon of Humanity (Human crew gain 20% resistance to hazards and 10% boost to damage, repair, health, and movement)</text>
+        <event load="BOON_SELECT_HUMAN_2"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_ENGI">
+        <text>Boon of Nanites (Engi crew gain 20% boost to repair speed)</text>
+        <event load="BOON_SELECT_ENGI"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_ZOLTAN">
+        <text>Boon of Hardlight (Zoltan crew and hardlight holograms gain 15 additional health)</text>
+        <event load="BOON_SELECT_ZOLTAN"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_OSMIAN">
+        <text>Boon of Osmia (Osmian crew regain all ability charges and heal their holograms in the room at 2hp/s)</text>
+        <event load="BOON_SELECT_OSMIAN"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_ORCHID">
+        <text>Boon of Vegetation (Orchid crew heal allied crew in the room at 0.5hp/s)</text>
+        <event load="BOON_SELECT_ORCHID"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_MANTIS">
+        <text>Boon of Insectoids (Mantis crew gain 20% extra ranged damage)</text>
+        <event load="BOON_SELECT_MANTIS"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_MANTIS_2">
+        <text>Greater Boon of Insectoids (Mantis crew gain 25% extra damage)</text>
+        <event load="BOON_SELECT_MANTIS_2"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_ROCK">
+        <text>Boon of Silicon (Rock crew put out fires 30% faster)</text>
+        <event load="BOON_SELECT_ROCK"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_ROCK_2">
+        <text>Greater Boon of Silicon (Rock crew put out fires 30% faster and move 25% faster)</text>
+        <event load="BOON_SELECT_ROCK_2"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_CRYSTAL">
+        <text>Boon of Geodes (Crystal crew gain 20% more damage)</text>
+        <event load="BOON_SELECT_CRYSTAL"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_SLUG">
+        <text>Boon of Slime (Slug crew gain 20% resistance to hazards)</text>
+        <event load="BOON_SELECT_SLUG"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_SLUG_2">
+        <text>Greater Boon of Slime (Slug crew gain 20% resistance to hazards and double movement speed)</text>
+        <event load="BOON_SELECT_SLUG_2"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_SHELL">
+        <text>Boon of Shells (Shell crew gain 15% more resistance to combat damage)</text>
+        <event load="BOON_SELECT_SHELL"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_LEECH">
+        <text>Boon of Parasites (Leech crew gain 10 additional health)</text>
+        <event load="BOON_SELECT_LEECH"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_GHOST">
+        <text>Boon of Phantoms (Ghost crew gain 30% more movement speed)</text>
+        <event load="BOON_SELECT_GHOST"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_LANIUS">
+        <text>Boon of Metalloids (Lanius crew heal twice as fast and take 10% less combat damage)</text>
+        <event load="BOON_SELECT_LANIUS"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_MORPH">
+        <text>Boon of Shapeshifting (Morph crew gain 10% more health and 30% more movement speed)</text>
+        <event load="BOON_SELECT_MORPH"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_LIZARD">
+        <text>Boon of Scales (Lizard crew gain 15% boost to all standard stats)</text>
+        <event load="BOON_SELECT_LIZARD"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_SPIDER">
+        <text>Boon of Arachnids (Spider crew are always controllable)</text>
+        <event load="BOON_SELECT_SPIDER"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_PONY">
+        <text>Boon of Equinoids (Gain a tamed pony)</text>
+        <event load="BOON_SELECT_PONY"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_OBELISK">
+        <text>Boon of Ancients (Obelisk and Cognitive crew gain 20 additional health and 15% more damage and repair speed)</text>
+        <event load="BOON_SELECT_OBELISK"/>
+    </choice>
+    <!-- <choice hidden="true" req="ACH ACH_BOON_SIREN">
+        <text>Boon of </text>
+        <event load="BOON_SELECT_SIREN"/>
+    </choice> -->
+    <choice hidden="true" req="ACH ACH_BOON_UNIQUE">
+        <text>Boon of Companions (Unique crew lose no skills when cloned, heal 50% faster and gain 15% more damage, repair speed, and movement speed)</text>
+        <event load="BOON_SELECT_UNIQUE"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_A55">
+        <text>Boon of Mechanics (Crew drones gain 50 health and double movement speed)</text>
+        <event load="BOON_SELECT_UNIQUEMECH"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_KIDS">
+        <text>Boon of Children (All crew gain 1% more helath)</text>
+        <event load="BOON_SELECT_KIDS"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_WEAPONS">
+        <text>Grant of [Weaponry] (Weapons are repaired 50% faster)</text>
+        <event load="BOON_SELECT_WEAPONS"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_SHIELDS">
+        <text>Grant of [Shielding] (Shields are repaired 50% faster)</text>
+        <event load="BOON_SELECT_SHIELDS"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_ENGINES">
+        <text>Grant of [Engines] (Engines are repaired 75% faster)</text>
+        <event load="BOON_SELECT_ENGINES"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_MEDBAY">
+        <text>Grant of [Healing] (All crew heal 75% faster)</text>
+        <event load="BOON_SELECT_MEDBAY"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_CLONEBAY">
+        <text>Grant of [Cloning] (Skills are not lost from cloning)</text>
+        <event load="BOON_SELECT_CLONEBAY"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_OXYGEN">
+        <text>Grant of [Life Support] (33% resistance to suffocation)</text>
+        <event load="BOON_SELECT_OXYGEN"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_TELEPORTER">
+        <text>Grant of [Teleporting] (Teleporter room heals at 1hp/s)</text>
+        <event load="BOON_SELECT_TELEPORTER"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_MIND">
+        <text>Grant of [Manipulation] (60% stun immunity to crew on your own ship)</text>
+        <event load="BOON_SELECT_MIND"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_HACKING">
+        <text>Grant of [Hacking] (Crew ignore hacked doors on your ship)</text>
+        <event load="BOON_SELECT_HACKING"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_STEALTH">
+        <text>Grant of [Stealth] (Hull and systems have 10% chance to resist damage)</text>
+        <event load="BOON_SELECT_CLOAKING"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_TEMPORAL">
+        <text>Grant of [Temporality] (All crew moves twice as fast)</text>
+        <event load="BOON_SELECT_TEMPORAL"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_DRONES">
+        <text>Grant of [Drones] (Drone Control is repaired 75% faster)</text>
+        <event load="BOON_SELECT_DRONES"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_SENSORS">
+        <text>Grant of [Sensors] (Provides maximum sensors)</text>
+        <event load="BOON_SELECT_SENSORS"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_DOORS">
+        <text>Grant of [Doors] (Doors are destroyed 50% slower and crew in the Doors room gain 30% damage resistance)</text>
+        <event load="BOON_SELECT_DOORS"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_PILOT">
+        <text>Grant of [Piloting] (Crew in the Piloting room is immune to mind control)</text>
+        <event load="BOON_SELECT_PILOT"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_BATTERY">
+        <text>Grant of [Battery] (When Backup Battery is disabled, crew and drones gain 33% repair and movement speed)</text>
+        <event load="BOON_SELECT_BATTERY"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_REACTOR">
+        <text>Grant of [Power] (One bonus reactor)</text>
+        <event load="BOON_SELECT_REACTOR"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_START">
+        <text>Blessing of Beginnings (15 scrap, 3 fuel, 3 missiles, 3 drones)</text>
+        <event load="BOON_SELECT_STARTER"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_KERNELS">
+        <text>Blessing of Kernels (6 missiles) </text>
+        <event load="BOON_SELECT_KERNELELITE"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_CRYSELITE">
+        <text>Blessing of Crystals (15% chance to break off a crystal shard when taking damage)</text>
+        <event load="BOON_SELECT_CRYSTALELITE"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_MINELAUNCHER">
+        <text>Blessing of Traps (Delay fleet pursuit by 2)</text>
+        <event load="BOON_SELECT_MINELAUNCHER"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_NEWGEN">
+        <text>Blessing of Generations (All crew start at level 1 in all skills)</text>
+        <event load="BOON_SELECT_NEWGEN"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_AETHER">
+        <text>Blessing of Aether (Precursor ruins are shown on your map)</text>
+        <event load="BOON_SELECT_AETHER"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_NEXUS">
+        <text>Blessing of (Traveling merchant will give multiple selections of trades)</text>
+        <event load="BOON_SELECT_MERCHANTS"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_SPECIAL">
+        <text>Blessing of Speciality (Weapons charge 5% faster)</text>
+        <event load="BOON_SELECT_SPECIAL"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_TRANSPORT">
+        <text>Blessing of Transports (Enemy FTL Drives charge at half speed)</text>
+        <event load="BOON_SELECT_TRANSPORT"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_MATH">
+        <text>Blessing of Mathematics (Each crew member in a room increases health and repair speed by 4%)</text>
+        <event load="BOON_SELECT_MATH"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_RENEGADES">
+        <text>Blessing of Renegades (You can avoid fighting any Renegade for free)</text>
+        <event load="BOON_SELECT_RENEGADE"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_SENTRY">
+        <text>Blessing of Sentries (Crew and drones gain 30% damage and movement speed on enemy ships)</text>
+        <event load="BOON_SELECT_SENTRY"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_CURA">
+        <text>Blessing of Tasks (C.U.R.A. will not charge you for running its tasks)</text>
+        <event load="BOON_SELECT_CURA"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_CLONECANNON">
+        <text>Blessing of Morality (General notoriety will start at negative 3)</text>
+        <event load="BOON_SELECT_CLONECANNON"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_MODULAR">
+        <text>Blessing of Modularity (Gain a random module, except cooldown)</text>
+        <event load="BOON_SELECT_MODULAR"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_GATLING">
+        <text>Blessing of Super Weapons (Weapons charge 10% faster)</text>
+        <event load="BOON_SELECT_GATLING"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_MADNESS">
+        <text>Blessing of Poets (Enemy crew that board your ship will be inflicted with madness)</text>
+        <event load="BOON_SELECT_MADNESS"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_CHAOS">
+        <text>Boon of Chaos (Your resources will constantly fluctuate)</text>
+        <event load="BOON_SELECT_CHAOS"/>
+    </choice>
+</event>
+<event name="BOON_SELECT_RANDOM">
+    <loadEventList seeded="false">
+        <event name="BOON_SELECT_HUMAN" req="ACH ACH_BOON_HUMAN"/>
+        <event name="BOON_SELECT_HUMAN_2" req="ACH ACH_BOON_HUMAN_2"/>
+        <event name="BOON_SELECT_ENGI" req="ACH ACH_BOON_ENGI"/>
+        <event name="BOON_SELECT_ZOLTAN" req="ACH ACH_BOON_ZOLTAN"/>
+        <event name="BOON_SELECT_OSMIAN" req="ACH ACH_BOON_OSMIAN"/>
+        <event name="BOON_SELECT_ORCHID" req="ACH ACH_BOON_ORCHID"/>
+        <event name="BOON_SELECT_MANTIS" req="ACH ACH_BOON_MANTIS"/>
+        <event name="BOON_SELECT_MANTIS_2" req="ACH ACH_BOON_MANTIS_2"/>
+        <event name="BOON_SELECT_ROCK" req="ACH ACH_BOON_ROCK"/>
+        <event name="BOON_SELECT_ROCK_2" req="ACH ACH_BOON_ROCK_2"/>
+        <event name="BOON_SELECT_CRYSTAL" req="ACH ACH_BOON_CRYSTAL"/>
+        <event name="BOON_SELECT_SLUG" req="ACH ACH_BOON_SLUG"/>
+        <event name="BOON_SELECT_SLUG_2" req="ACH ACH_BOON_SLUG_2"/>
+        <event name="BOON_SELECT_SHELL" req="ACH ACH_BOON_SHELL"/>
+        <event name="BOON_SELECT_LEECH" req="ACH ACH_BOON_LEECH"/>
+        <event name="BOON_SELECT_GHOST" req="ACH ACH_BOON_GHOST"/>
+        <event name="BOON_SELECT_LANIUS" req="ACH ACH_BOON_LANIUS"/>
+        <event name="BOON_SELECT_MORPH" req="ACH ACH_BOON_MORPH"/>
+        <event name="BOON_SELECT_LIZARD" req="ACH ACH_BOON_LIZARD"/>
+        <event name="BOON_SELECT_SPIDER" req="ACH ACH_BOON_SPIDER"/>
+        <event name="BOON_SELECT_PONY" req="ACH ACH_BOON_PONY"/>
+        <event name="BOON_SELECT_OBELISK" req="ACH ACH_BOON_OBELISK"/>
+        <!-- <event name="BOON_SELECT_SIREN" req="ACH ACH_BOON_SIREN"/> -->
+        <event name="BOON_SELECT_UNIQUE" req="ACH ACH_BOON_UNIQUE"/>
+        <event name="BOON_SELECT_UNIQUEMECH" req="ACH ACH_BOON_A55"/>
+        <event name="BOON_SELECT_KIDS" req="ACH ACH_BOON_KIDS"/>
+        <event name="BOON_SELECT_WEAPONS" req="ACH ACH_BOON_WEAPONS"/>
+        <event name="BOON_SELECT_SHIELDS" req="ACH ACH_BOON_SHIELDS"/>
+        <event name="BOON_SELECT_ENGINES" req="ACH ACH_BOON_ENGINES"/>
+        <event name="BOON_SELECT_MEDBAY" req="ACH ACH_BOON_MEDBAY"/>
+        <event name="BOON_SELECT_CLONEBAY" req="ACH ACH_BOON_CLONEBAY"/>
+        <event name="BOON_SELECT_OXYGEN" req="ACH ACH_BOON_OXYGEN"/>
+        <event name="BOON_SELECT_TELEPORTER" req="ACH ACH_BOON_TELEPORTER"/>
+        <event name="BOON_SELECT_MIND" req="ACH ACH_BOON_MIND"/>
+        <event name="BOON_SELECT_HACKING" req="ACH ACH_BOON_HACKING"/>
+        <event name="BOON_SELECT_CLOAKING" req="ACH ACH_BOON_STEALTH"/>
+        <event name="BOON_SELECT_TEMPORAL" req="ACH ACH_BOON_TEMPORAL"/>
+        <event name="BOON_SELECT_DRONES" req="ACH ACH_BOON_DRONES"/>
+        <event name="BOON_SELECT_SENSORS" req="ACH ACH_BOON_SENSORS"/>
+        <event name="BOON_SELECT_DOORS" req="ACH ACH_BOON_DOORS"/>
+        <event name="BOON_SELECT_PILOT" req="ACH ACH_BOON_PILOT"/>
+        <event name="BOON_SELECT_BATTERY" req="ACH ACH_BOON_BATTERY"/>
+        <event name="BOON_SELECT_REACTOR" req="ACH ACH_BOON_REACTOR"/>
+        <event name="BOON_SELECT_STARTER" req="ACH ACH_BOON_START"/>
+        <event name="BOON_SELECT_KERNELELITE" req="ACH ACH_BOON_KERNELS"/>
+        <event name="BOON_SELECT_CRYSTALELITE" req="ACH ACH_BOON_CRYSELITE"/>
+        <event name="BOON_SELECT_MINELAUNCHER" req="ACH ACH_BOON_MINELAUNCHER"/>
+        <event name="BOON_SELECT_NEWGEN" req="ACH ACH_BOON_NEWGEN"/>
+        <event name="BOON_SELECT_AETHER" req="ACH ACH_BOON_AETHER"/>
+        <event name="BOON_SELECT_MERCHANTS" req="ACH ACH_BOON_NEXUS"/>
+        <event name="BOON_SELECT_SPECIAL" req="ACH ACH_BOON_SPECIAL"/>
+        <event name="BOON_SELECT_TRANSPORT" req="ACH ACH_BOON_TRANSPORT"/>
+        <event name="BOON_SELECT_MATH" req="ACH ACH_BOON_MATH"/>
+        <event name="BOON_SELECT_RENEGADE" req="ACH ACH_BOON_RENEGADES"/>
+        <event name="BOON_SELECT_SENTRY" req="ACH ACH_BOON_SENTRY"/>
+        <event name="BOON_SELECT_CURA" req="ACH ACH_BOON_CURA"/>
+        <event name="BOON_SELECT_CLONECANNON" req="ACH ACH_BOON_CLONECANNON"/>
+        <event name="BOON_SELECT_MODULAR" req="ACH ACH_BOON_MODULAR"/>
+        <event name="BOON_SELECT_GATLING" req="ACH ACH_BOON_GATLING"/>
+        <event name="BOON_SELECT_MADNESS" req="ACH ACH_BOON_MADNESS"/>
+        <event name="BOON_SELECT_CHAOS" req="ACH ACH_BOON_CHAOS"/>
+    </loadEventList>
+</event>

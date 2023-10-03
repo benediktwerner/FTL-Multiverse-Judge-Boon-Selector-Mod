@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <title>Multiverse Judge Boon Selector</title>
+  <threadUrl>
+    <![CDATA[ https://subsetgames.com/forum/viewtopic.php?f=12&t=17102 ]]>
+  </threadUrl>
+  <author>1vader</author>
+  <version>0.1</version>
+  <description>
+    <![CDATA[ 
+Allows you to select any of the Judge Boons at the start of a run, provided you have unlocked/received them at least once.
+]]>
+  </description>
+</metadata>
