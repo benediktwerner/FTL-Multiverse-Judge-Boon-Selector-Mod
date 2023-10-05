@@ -208,7 +208,7 @@
         <event load="BOON_SELECT_AETHER"/>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_NEXUS">
-        <text>Blessing of (Traveling merchant will give multiple selections of trades)</text>
+        <text>Blessing of Merchants (Traveling merchant will give multiple selections of trades)</text>
         <event load="BOON_SELECT_MERCHANTS"/>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_SPECIAL">
