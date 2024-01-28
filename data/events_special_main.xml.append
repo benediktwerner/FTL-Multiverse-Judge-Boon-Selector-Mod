@@ -164,7 +164,7 @@
         <event load="BOON_SELECT_DRONES"/>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_SENSORS">
-        <text>Grant of [Sensors] (Provides maximum sensors)</text>
+        <text>Grant of [Sensors] (Upgrades sensors or installs them if not present)</text>
         <event load="BOON_SELECT_SENSORS"/>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_DOORS">
@@ -188,7 +188,7 @@
         <event load="BOON_SELECT_STARTER"/>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_KERNELS">
-        <text>Blessing of Kernels (6 missiles) </text>
+        <text>Blessing of Growth (6 missiles) </text>
         <event load="BOON_SELECT_KERNELELITE"/>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_CRYSELITE">
@@ -200,7 +200,7 @@
         <event load="BOON_SELECT_MINELAUNCHER"/>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_NEWGEN">
-        <text>Blessing of Generations (All crew start at level 1 in all skills)</text>
+        <text>Blessing of Generations (All new crew start at level 1 in all skills)</text>
         <event load="BOON_SELECT_NEWGEN"/>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_AETHER">
