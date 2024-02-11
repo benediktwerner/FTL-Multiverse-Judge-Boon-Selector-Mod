@@ -5,12 +5,14 @@
     <![CDATA[ https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod ]]>
   </threadUrl>
   <author>1vader</author>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <description>
     <![CDATA[ 
 Allows you to select any of the Judge Boons at the start of a run, provided you have unlocked/received them at least once.
 
 Requires Multiverse to be installed and this needs to be patched after Multiverse.
+
+Patch after Forgotten Races and Insurrection+ Selection if you are using them.
 ]]>
   </description>
 </metadata>
