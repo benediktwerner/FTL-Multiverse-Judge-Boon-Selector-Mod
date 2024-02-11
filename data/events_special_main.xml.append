@@ -296,6 +296,15 @@
         <text>Blessing of Withering (All beam weapons pierce 1 additional shield layer)</text>
         <event load="BOON_SELECT_FR_WITHER_WEAPON"/>
     </choice>
+    <!-- IPS -->
+    <choice hidden="true" req="ACH ACH_IPS_BOON_SONA">
+        <text>Boon of Explorers (Your cruiser immediately acquires the Anomaly Detector)</text>
+        <event load="BOON_SELECT_IPS_SONA"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_IPS_BOON_TECH">
+        <text>Blessing of Insurrection (Your Stability Index will be set to 275)</text>
+        <event load="BOON_SELECT_IPS_TECH"/>
+    </choice>
 </event>
 <event name="BOON_SELECT_RANDOM">
     <loadEventList seeded="false">
@@ -371,5 +380,8 @@
         <event name="BOON_SELECT_FR_LAVAMAN" req="ACH ACH_FR_BOON_LAVAMAN"/>
         <event name="BOON_SELECT_FR_AI_AVATAR" req="ACH ACH_FR_BOON_AIAVATAR"/>
         <event name="BOON_SELECT_FR_WITHER_WEAPON" req="ACH ACH_FR_BOON_WITHER_GUN"/>
+        <!-- IPS -->
+        <event name="BOON_SELECT_IPS_SONA" req="ACH ACH_IPS_BOON_SONA"/>
+        <event name="BOON_SELECT_IPS_TECH" req="ACH ACH_IPS_BOON_TECH"/>
     </loadEventList>
 </event>

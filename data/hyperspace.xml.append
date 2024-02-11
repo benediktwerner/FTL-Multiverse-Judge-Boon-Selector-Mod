@@ -78,6 +78,9 @@
         <name>ACH ACH_FR_BOON_SALT_GUN</name>
         <name>ACH ACH_FR_BOON_HAUNT_GUN</name>
         <name>ACH ACH_FR_BOON_WITHER_GUN</name>
+        <!-- IPS -->
+        <name>ACH ACH_IPS_BOON_SONA</name>
+        <name>ACH ACH_IPS_BOON_TECH</name>
     </req>
     <req name="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
         <name>ACH ACH_FR_BOON_SALT</name>
