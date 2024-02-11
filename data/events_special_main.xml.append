@@ -258,52 +258,76 @@
     <!-- Forgotten Races -->
     <choice hidden="true" req="ACH ACH_FR_BOON_COMMONWEALTH">
         <text>Boon of The Extinct (Your Commonwealth crew can teleport anywhere)</text>
-        <event load="BOON_SELECT_FR_COMMONWEALTH_CREW"/>
+        <event>
+            <loadEvent>BOON_SELECT_FR_COMMONWEALTH_CREW</loadEvent>
+        </event>
     </choice>
     <choice hidden="true" req="ACH ACH_FR_BOON_ION">
         <text>Blessing of The Ion (You gain 50% ion resistance)</text>
-        <event load="BOON_SELECT_FR_COMMONWEALTH_EQUIPMENT"/>
+        <event>
+            <loadEvent>BOON_SELECT_FR_COMMONWEALTH_EQUIPMENT</loadEvent>
+        </event>
     </choice>
     <choice hidden="true" req="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
         <text>Boon of The Forgotten (Your salts become immune to suffocation and stuns)</text>
-        <event load="BOON_SELECT_FR_SALT_CREW"/>
+        <event>
+            <loadEvent>BOON_SELECT_FR_SALT_CREW</loadEvent>
+        </event>
     </choice>
     <choice hidden="true" req="ACH ACH_FR_BOON_SALT_GUN">
         <text>Blessing of Seasoning (Immediately gain a random special weapon)</text>
-        <event load="BOON_SELECT_FR_SALT_GUN"/>
+        <event>
+            <loadEvent>BOON_SELECT_FR_SALT_GUN</loadEvent>
+        </event>
     </choice>
     <choice hidden="true" req="ACH ACH_FR_BOON_HAUNT_CREW">
         <text>Boon of Haunters (All crew can phase through doors and are immune to suffocation damage)</text>
-        <event load="BOON_SELECT_FR_HAUNT_CREW"/>
+        <event>
+            <loadEvent>BOON_SELECT_FR_HAUNT_CREW</loadEvent>
+        </event>
     </choice>
     <choice hidden="true" req="ACH ACH_FR_BOON_HAUNT_GUN">
         <text>Blessing of Haunting (Obtain a random multiverse augment)</text>
-        <event load="BOON_SELECT_FR_HAUNT_GUN"/>
+        <event>
+            <loadEvent>BOON_SELECT_FR_HAUNT_GUN</loadEvent>
+        </event>
     </choice>
     <choice hidden="true" req="ACH ACH_FR_BOON_SNOWMAN">
         <text>Boon of Snow (All Snowman crew will slow all enemies in the same room as them by 50%)</text>
-        <event load="BOON_SELECT_FR_SNOWMAN"/>
+        <event>
+            <loadEvent>BOON_SELECT_FR_SNOWMAN</loadEvent>
+        </event>
     </choice>
     <choice hidden="true" req="ACH ACH_FR_BOON_LAVAMAN">
         <text>Boon of Lava (All Lavaman crew will constantly deal 2 damage per second to all enemies in the same room as them)</text>
-        <event load="BOON_SELECT_FR_LAVAMAN"/>
+        <event>
+            <loadEvent>BOON_SELECT_FR_LAVAMAN</loadEvent>
+        </event>
     </choice>
     <choice hidden="true" req="ACH ACH_FR_BOON_AIAVATAR">
         <text>Boon of Artificiality (All AI Avatars crew will only use 0.1x the space of a normal crew)</text>
-        <event load="BOON_SELECT_FR_AI_AVATAR"/>
+        <event>
+            <loadEvent>BOON_SELECT_FR_AI_AVATAR</loadEvent>
+        </event>
     </choice>
     <choice hidden="true" req="ACH ACH_FR_BOON_WITHER_GUN">
         <text>Blessing of Withering (All beam weapons pierce 1 additional shield layer)</text>
-        <event load="BOON_SELECT_FR_WITHER_WEAPON"/>
+        <event>
+            <loadEvent>BOON_SELECT_FR_WITHER_WEAPON</loadEvent>
+        </event>
     </choice>
     <!-- IPS -->
     <choice hidden="true" req="ACH ACH_IPS_BOON_SONA">
         <text>Boon of Explorers (Your cruiser immediately acquires the Anomaly Detector)</text>
-        <event load="BOON_SELECT_IPS_SONA"/>
+        <event>
+            <loadEvent>BOON_SELECT_IPS_SONA</loadEvent>
+        </event>
     </choice>
     <choice hidden="true" req="ACH ACH_IPS_BOON_TECH">
         <text>Blessing of Insurrection (Your Stability Index will be set to 275)</text>
-        <event load="BOON_SELECT_IPS_TECH"/>
+        <event>
+            <loadEvent>BOON_SELECT_IPS_TECH</loadEvent>
+        </event>
     </choice>
 </event>
 <event name="BOON_SELECT_RANDOM">
@@ -370,18 +394,42 @@
         <event name="BOON_SELECT_MADNESS" req="ACH ACH_BOON_MADNESS"/>
         <event name="BOON_SELECT_CHAOS" req="ACH ACH_BOON_CHAOS"/>
         <!-- Forgotten Races -->
-        <event name="BOON_SELECT_FR_COMMONWEALTH_CREW" req="ACH ACH_FR_BOON_COMMONWEALTH"/>
-        <event name="BOON_SELECT_FR_COMMONWEALTH_EQUIPMENT" req="ACH ACH_FR_BOON_ION"/>
-        <event name="BOON_SELECT_FR_SALT_CREW" req="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW"/>
-        <event name="BOON_SELECT_FR_SALT_GUN" req="ACH ACH_FR_BOON_SALT_GUN"/>
-        <event name="BOON_SELECT_FR_HAUNT_CREW" req="ACH ACH_FR_BOON_HAUNT_CREW"/>
-        <event name="BOON_SELECT_FR_HAUNT_GUN" req="ACH ACH_FR_BOON_HAUNT_GUN"/>
-        <event name="BOON_SELECT_FR_SNOWMAN" req="ACH ACH_FR_BOON_SNOWMAN"/>
-        <event name="BOON_SELECT_FR_LAVAMAN" req="ACH ACH_FR_BOON_LAVAMAN"/>
-        <event name="BOON_SELECT_FR_AI_AVATAR" req="ACH ACH_FR_BOON_AIAVATAR"/>
-        <event name="BOON_SELECT_FR_WITHER_WEAPON" req="ACH ACH_FR_BOON_WITHER_GUN"/>
+        <event req="ACH ACH_FR_BOON_COMMONWEALTH">
+            <loadEvent>BOON_SELECT_FR_COMMONWEALTH_CREW</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_ION">
+            <loadEvent>BOON_SELECT_FR_COMMONWEALTH_EQUIPMENT</loadEvent>
+        </event>
+        <event req="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
+            <loadEvent>BOON_SELECT_FR_SALT_CREW</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_SALT_GUN">
+            <loadEvent>BOON_SELECT_FR_SALT_GUN</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_HAUNT_CREW">
+            <loadEvent>BOON_SELECT_FR_HAUNT_CREW</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_HAUNT_GUN">
+            <loadEvent>BOON_SELECT_FR_HAUNT_GUN</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_SNOWMAN">
+            <loadEvent>BOON_SELECT_FR_SNOWMAN</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_LAVAMAN">
+            <loadEvent>BOON_SELECT_FR_LAVAMAN</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_AIAVATAR">
+            <loadEvent>BOON_SELECT_FR_AI_AVATAR</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_WITHER_GUN">
+            <loadEvent>BOON_SELECT_FR_WITHER_WEAPON</loadEvent>
+        </event>
         <!-- IPS -->
-        <event name="BOON_SELECT_IPS_SONA" req="ACH ACH_IPS_BOON_SONA"/>
-        <event name="BOON_SELECT_IPS_TECH" req="ACH ACH_IPS_BOON_TECH"/>
+        <event req="ACH ACH_IPS_BOON_SONA">
+            <loadEvent>BOON_SELECT_IPS_SONA</loadEvent>
+        </event>
+        <event req="ACH ACH_IPS_BOON_TECH">
+            <loadEvent>BOON_SELECT_IPS_TECH</loadEvent>
+        </event>
     </loadEventList>
 </event>
