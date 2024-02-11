@@ -78,6 +78,13 @@
         <name>ACH ACH_FR_BOON_SALT_GUN</name>
         <name>ACH ACH_FR_BOON_HAUNT_GUN</name>
         <name>ACH ACH_FR_BOON_WITHER_GUN</name>
+        <!-- Forgotten Diamonds -->
+        <name>ACH_FR_BOON_DIAMOND</name>
+        <name>ACH_FR_BOON_OPERATOR</name>
+        <name>ACH_FR_BOON_METAL_LANIUS</name>
+        <name>ACH_FR_BOON_GOLDEN</name>
+        <name>ACH_FR_BOON_COPPER</name>
+        <name>ACH_FR_BOON_ADAMANTINE</name>
         <!-- IPS -->
         <name>ACH ACH_IPS_BOON_SONA</name>
         <name>ACH ACH_IPS_BOON_TECH</name>

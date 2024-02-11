@@ -316,6 +316,43 @@
             <loadEvent>BOON_SELECT_FR_WITHER_WEAPON</loadEvent>
         </event>
     </choice>
+    <!-- Forgotten Diamonds -->
+    <choice hidden="true" req="ACH ACH_FR_BOON_DIAMOND">
+        <text>Boon of The Diamonds (Your metal diamond crew can phase through doors and gain 20% movement speed)</text>
+        <event>
+            <loadEvent>BOON_SELECT_FR_DIAMOND</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_OPERATOR">
+        <text>Boon of The Operators (Your operators will now hack the doors of the room they are standing in while in enemy ships)</text>
+        <event>
+            <loadEvent>BOON_SELECT_FR_OPERATOR</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_METAL_LANIUS">
+        <text>Boon of Alloys (All Metal Lanius Crew resist mind control can see adjacent rooms)</text>
+        <event>
+            <loadEvent>BOON_SELECT_FR_METAL_LANIUS</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_GOLDEN">
+        <text>Blessing of Opulence (You gain 10% more scrap)</text>
+        <event>
+            <loadEvent>BOON_SELECT_FR_GOLDEN</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_COPPER">
+        <text>Blessing of Rusting (Your combat drones are recovered after fights if not destroyed)</text>
+        <event>
+            <loadEvent>BOON_SELECT_FR_COPPER</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_ADAMANTINE">
+        <text>Blessing of Cloning (Your crew won't lose skills from being cloned and all start with at least level 1 in all skills)</text>
+        <event>
+            <loadEvent>BOON_SELECT_FR_ADAMANTINE</loadEvent>
+        </event>
+    </choice>
     <!-- IPS -->
     <choice hidden="true" req="ACH ACH_IPS_BOON_SONA">
         <text>Boon of Explorers (Your cruiser immediately acquires the Anomaly Detector)</text>
@@ -423,6 +460,25 @@
         </event>
         <event req="ACH ACH_FR_BOON_WITHER_GUN">
             <loadEvent>BOON_SELECT_FR_WITHER_WEAPON</loadEvent>
+        </event>
+        <!-- Forgotten Diamonds -->
+        <event req="ACH ACH_FR_BOON_DIAMOND">
+            <loadEvent>BOON_SELECT_FR_DIAMOND</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_OPERATOR">
+            <loadEvent>BOON_SELECT_FR_OPERATOR</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_METAL_LANIUS">
+            <loadEvent>BOON_SELECT_FR_METAL_LANIUS</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_GOLDEN">
+            <loadEvent>BOON_SELECT_FR_GOLDEN</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_COPPER">
+            <loadEvent>BOON_SELECT_FR_COPPER</loadEvent>
+        </event>
+        <event req="ACH ACH_FR_BOON_ADAMANTINE">
+            <loadEvent>BOON_SELECT_FR_ADAMANTINE</loadEvent>
         </event>
         <!-- IPS -->
         <event req="ACH ACH_IPS_BOON_SONA">
