@@ -66,5 +66,21 @@
         <name>ACH ACH_BOON_UNIQUE</name>
         <name>ACH ACH_BOON_WEAPONS</name>
         <name>ACH ACH_BOON_ZOLTAN</name>
+        <!-- Forgotten Races  -->
+        <name>ACH ACH_FR_BOON_COMMONWEALTH</name>
+        <name>ACH ACH_FR_BOON_SALT</name>
+        <name>ACH ACH_FR_BOON_OBYN</name>
+        <name>ACH ACH_FR_BOON_HAUNT_CREW</name>
+        <name>ACH ACH_FR_BOON_SNOWMAN</name>
+        <name>ACH ACH_FR_BOON_LAVAMAN</name>
+        <name>ACH ACH_FR_BOON_AIAVATAR</name>
+        <name>ACH ACH_FR_BOON_ION</name>
+        <name>ACH ACH_FR_BOON_SALT_GUN</name>
+        <name>ACH ACH_FR_BOON_HAUNT_GUN</name>
+        <name>ACH ACH_FR_BOON_WITHER_GUN</name>
+    </req>
+    <req name="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
+        <name>ACH ACH_FR_BOON_SALT</name>
+        <name>ACH ACH_FR_BOON_OBYN</name>
     </req>
 </events>

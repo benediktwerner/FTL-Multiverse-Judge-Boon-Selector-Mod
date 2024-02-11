@@ -255,6 +255,47 @@
         <text>Boon of Chaos (Your resources will constantly fluctuate)</text>
         <event load="BOON_SELECT_CHAOS"/>
     </choice>
+    <!-- Forgotten Races -->
+    <choice hidden="true" req="ACH ACH_FR_BOON_COMMONWEALTH">
+        <text>Boon of The Extinct (Your Commonwealth crew can teleport anywhere)</text>
+        <event load="BOON_SELECT_FR_COMMONWEALTH_CREW"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_ION">
+        <text>Blessing of The Ion (You gain 50% ion resistance)</text>
+        <event load="BOON_SELECT_FR_COMMONWEALTH_EQUIPMENT"/>
+    </choice>
+    <choice hidden="true" req="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
+        <text>Boon of The Forgotten (Your salts become immune to suffocation and stuns)</text>
+        <event load="BOON_SELECT_FR_SALT_CREW"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_SALT_GUN">
+        <text>Blessing of Seasoning (Immediately gain a random special weapon)</text>
+        <event load="BOON_SELECT_FR_SALT_GUN"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_HAUNT_CREW">
+        <text>Boon of Haunters (All crew can phase through doors and are immune to suffocation damage)</text>
+        <event load="BOON_SELECT_FR_HAUNT_CREW"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_HAUNT_GUN">
+        <text>Blessing of Haunting (Obtain a random multiverse augment)</text>
+        <event load="BOON_SELECT_FR_HAUNT_GUN"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_SNOWMAN">
+        <text>Boon of Snow (All Snowman crew will slow all enemies in the same room as them by 50%)</text>
+        <event load="BOON_SELECT_FR_SNOWMAN"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_LAVAMAN">
+        <text>Boon of Lava (All Lavaman crew will constantly deal 2 damage per second to all enemies in the same room as them)</text>
+        <event load="BOON_SELECT_FR_LAVAMAN"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_AIAVATAR">
+        <text>Boon of Artificiality (All AI Avatars crew will only use 0.1x the space of a normal crew)</text>
+        <event load="BOON_SELECT_FR_AI_AVATAR"/>
+    </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_WITHER_GUN">
+        <text>Blessing of Withering (All beam weapons pierce 1 additional shield layer)</text>
+        <event load="BOON_SELECT_FR_WITHER_WEAPON"/>
+    </choice>
 </event>
 <event name="BOON_SELECT_RANDOM">
     <loadEventList seeded="false">
@@ -319,5 +360,16 @@
         <event name="BOON_SELECT_GATLING" req="ACH ACH_BOON_GATLING"/>
         <event name="BOON_SELECT_MADNESS" req="ACH ACH_BOON_MADNESS"/>
         <event name="BOON_SELECT_CHAOS" req="ACH ACH_BOON_CHAOS"/>
+        <!-- Forgotten Races -->
+        <event name="BOON_SELECT_FR_COMMONWEALTH_CREW" req="ACH ACH_FR_BOON_COMMONWEALTH"/>
+        <event name="BOON_SELECT_FR_COMMONWEALTH_EQUIPMENT" req="ACH ACH_FR_BOON_ION"/>
+        <event name="BOON_SELECT_FR_SALT_CREW" req="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW"/>
+        <event name="BOON_SELECT_FR_SALT_GUN" req="ACH ACH_FR_BOON_SALT_GUN"/>
+        <event name="BOON_SELECT_FR_HAUNT_CREW" req="ACH ACH_FR_BOON_HAUNT_CREW"/>
+        <event name="BOON_SELECT_FR_HAUNT_GUN" req="ACH ACH_FR_BOON_HAUNT_GUN"/>
+        <event name="BOON_SELECT_FR_SNOWMAN" req="ACH ACH_FR_BOON_SNOWMAN"/>
+        <event name="BOON_SELECT_FR_LAVAMAN" req="ACH ACH_FR_BOON_LAVAMAN"/>
+        <event name="BOON_SELECT_FR_AI_AVATAR" req="ACH ACH_FR_BOON_AIAVATAR"/>
+        <event name="BOON_SELECT_FR_WITHER_WEAPON" req="ACH ACH_FR_BOON_WITHER_GUN"/>
     </loadEventList>
 </event>
