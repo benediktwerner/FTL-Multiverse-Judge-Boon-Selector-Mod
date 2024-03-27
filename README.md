@@ -1,6 +1,6 @@
 # FTL Multiverse Judge Boon Selector Mod
 
-[Download for Multiverse 5.4](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.3.0/Multiverse.Judge.Boon.Selector.ftl)
+[Download for Multiverse 5.4](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.4.0/Multiverse.Judge.Boon.Selector.ftl)
 
 [Download for Multiverse 5.3](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.0.1/Multiverse.Judge.Boon.Selector.ftl)
 
@@ -14,12 +14,13 @@ This obviously can screw with the balance a bit since some boons are rather OP b
 
 ## Compatibility with other Multiverse addons
 
-Currently, boons from Forgotten Races, Forgotten Diamonds, and Insurrection+ Selection (IPS) are supported.
+Currently, boons from Forgotten Races, Forgotten Diamonds, Insurrection+ Selection (IPS), and Forgemaster are supported.
 
 For this to work properly, make Judge Boon Selector is patched after them i.e. is lower in the patch order in Slipstream.
 
 ### Changelog
 
+- v1.4 Add support for Forgemaster
 - v1.3 Add support for Forgotten Diamonds boons
 - v1.2 Add support for Forgotten Races and Insurrection+ Selection (IPS) boons
 - v1.1 Update to Multiverse 5.4

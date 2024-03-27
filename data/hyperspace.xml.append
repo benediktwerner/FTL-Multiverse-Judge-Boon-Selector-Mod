@@ -88,6 +88,13 @@
         <!-- IPS -->
         <name>ACH ACH_IPS_BOON_SONA</name>
         <name>ACH ACH_IPS_BOON_TECH</name>
+        <!-- Forgemaster -->
+        <name>ACH ACH_BOON_FM_PLATED</name>
+        <name>ACH ACH_BOON_FM_FORGEARMOR</name>
+        <name>ACH ACH_BOON_FM_FORGEWEAPON</name>
+        <name>ACH ACH_BOON_FM_FORGEWEAPON_2</name>
+        <name>ACH ACH_BOON_FM_ANCWEAPON</name>
+        <name>ACH ACH_BOON_FM_TERMINUS</name>
     </req>
     <req name="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
         <name>ACH ACH_FR_BOON_SALT</name>
