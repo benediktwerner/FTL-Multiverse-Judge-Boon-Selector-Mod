@@ -366,6 +366,43 @@
             <loadEvent>BOON_SELECT_IPS_TECH</loadEvent>
         </event>
     </choice>
+    <!-- Forgemaster -->
+    <choice hidden="true" req="ACH ACH_BOON_FM_PLATED">
+        <text>Boon of Plated (All Plated crew gain +1 Ability charge)
+        <event>
+            <loadEvent>BOON_SELECT_FM_PLATED</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_FM_FORGEARMOR">
+        <text>Grant of Armouring (Modular Hull gains +2 notch capacity)
+        <event>
+            <loadEvent>BOON_SELECT_FM_FORGEARMOR</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_FM_FORGEWEAPON">
+        <text>Blessing of Forges (The Forgemaster will appear in every sector free of charge)</text>
+        <event>
+            <loadEvent>BOON_SELECT_FM_FORGEWEAPON</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_FM_FORGEWEAPON_2">
+        <text> Greater Blessing of Forges (The Forgemaster's store will contain more and better crafting materials) </text>
+        <event>
+            <loadEvent>BOON_SELECT_FM_FORGEWEAPON_2</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_FM_ANCWEAPON">
+        <text> Blessing of the Foolhardy (Ancalagon crystals gain 50% damage resistance) </text>
+        <event>
+            <loadEvent>BOON_SELECT_FM_ANCWEAPON</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH BOON_SELECT_FM_TERMINUS">
+        <text> Blessing of Twistedness (All crew stats are raised by 5%, most ship stats are increased by 5%)
+        <event>
+            <loadEvent>BOON_SELECT_FM_TERMINUS</loadEvent>
+        </event>
+    </choice>
 </event>
 <event name="BOON_SELECT_RANDOM">
     <loadEventList seeded="false">
@@ -486,6 +523,25 @@
         </event>
         <event req="ACH ACH_IPS_BOON_TECH">
             <loadEvent>BOON_SELECT_IPS_TECH</loadEvent>
+        </event>
+        <!-- Forgemaster -->
+        <event req="ACH ACH ACH_BOON_FM_PLATED">
+            <loadEvent>BOON_SELECT_FM_PLATED</loadEvent>
+        </event>
+        <event req="ACH ACH ACH_BOON_FM_FORGEARMOR">
+            <loadEvent>BOON_SELECT_FM_FORGEARMOR</loadEvent>
+        </event>
+        <event req="ACH ACH ACH_BOON_FM_FORGEWEAPON">
+            <loadEvent>BOON_SELECT_FM_FORGEWEAPON</loadEvent>
+        </event>
+        <event req="ACH ACH ACH_BOON_FM_FORGEWEAPON_2">
+            <loadEvent>BOON_SELECT_FM_FORGEWEAPON_2</loadEvent>
+        </event>
+        <event req="ACH ACH ACH_BOON_FM_ANCWEAPON">
+            <loadEvent>BOON_SELECT_FM_ANCWEAPON</loadEvent>
+        </event>
+        <event req="ACH ACH ACH_BOON_FM_TERMINUS">
+            <loadEvent>BOON_SELECT_FM_TERMINUS</loadEvent>
         </event>
     </loadEventList>
 </event>
