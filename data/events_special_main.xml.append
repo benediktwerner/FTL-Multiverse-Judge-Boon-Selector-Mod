@@ -397,7 +397,7 @@
             <loadEvent>BOON_SELECT_FM_ANCWEAPON</loadEvent>
         </event>
     </choice>
-    <choice hidden="true" req="ACH BOON_SELECT_FM_TERMINUS">
+    <choice hidden="true" req="ACH ACH_BOON_FM_TERMINUS">
         <text> Blessing of Twistedness (All crew stats are raised by 5%, most ship stats are increased by 5%)</text>
         <event>
             <loadEvent>BOON_SELECT_FM_TERMINUS</loadEvent>
