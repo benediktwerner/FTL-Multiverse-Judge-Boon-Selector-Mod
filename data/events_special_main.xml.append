@@ -525,22 +525,22 @@
             <loadEvent>BOON_SELECT_IPS_TECH</loadEvent>
         </event>
         <!-- Forgemaster -->
-        <event req="ACH ACH ACH_BOON_FM_PLATED">
+        <event req="ACH ACH_BOON_FM_PLATED">
             <loadEvent>BOON_SELECT_FM_PLATED</loadEvent>
         </event>
-        <event req="ACH ACH ACH_BOON_FM_FORGEARMOR">
+        <event req="ACH ACH_BOON_FM_FORGEARMOR">
             <loadEvent>BOON_SELECT_FM_FORGEARMOR</loadEvent>
         </event>
-        <event req="ACH ACH ACH_BOON_FM_FORGEWEAPON">
+        <event req="ACH ACH_BOON_FM_FORGEWEAPON">
             <loadEvent>BOON_SELECT_FM_FORGEWEAPON</loadEvent>
         </event>
-        <event req="ACH ACH ACH_BOON_FM_FORGEWEAPON_2">
+        <event req="ACH ACH_BOON_FM_FORGEWEAPON_2">
             <loadEvent>BOON_SELECT_FM_FORGEWEAPON_2</loadEvent>
         </event>
-        <event req="ACH ACH ACH_BOON_FM_ANCWEAPON">
+        <event req="ACH ACH_BOON_FM_ANCWEAPON">
             <loadEvent>BOON_SELECT_FM_ANCWEAPON</loadEvent>
         </event>
-        <event req="ACH ACH ACH_BOON_FM_TERMINUS">
+        <event req="ACH ACH_BOON_FM_TERMINUS">
             <loadEvent>BOON_SELECT_FM_TERMINUS</loadEvent>
         </event>
     </loadEventList>
