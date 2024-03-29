@@ -403,6 +403,13 @@
             <loadEvent>BOON_SELECT_FM_TERMINUS</loadEvent>
         </event>
     </choice>
+    <!-- C&C Weapons: Renegade Collection -->
+    <choice hidden="true" req="ACH ACH_BOON_NUKE">
+        <text> Blessing of Nukes (You may choose to receive a free missile at empty beacons)</text>
+        <event>
+            <loadEvent>BOON_SELECT_NUKE</loadEvent>
+        </event>
+    </choice>
 </event>
 <event name="BOON_SELECT_RANDOM">
     <loadEventList seeded="false">
@@ -542,6 +549,10 @@
         </event>
         <event req="ACH ACH_BOON_FM_TERMINUS">
             <loadEvent>BOON_SELECT_FM_TERMINUS</loadEvent>
+        </event>
+        <!-- C&C Weapons: Renegade Collection -->
+        <event req="ACH ACH_BOON_NUKE">
+            <loadEvent>BOON_SELECT_NUKE</loadEvent>
         </event>
     </loadEventList>
 </event>
