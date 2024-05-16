@@ -410,6 +410,13 @@
             <loadEvent>BOON_SELECT_NUKE</loadEvent>
         </event>
     </choice>
+    <!-- FTL: Fishier Than Light -->
+    <choice hidden="true" req="ACH ACH_BOON_FISH">
+        <text> Blessing of Fish (You won't fish up junk during fishing)</text>
+        <event>
+            <loadEvent>BOON_SELECT_FISH</loadEvent>
+        </event>
+    </choice>
 </event>
 <event name="BOON_SELECT_RANDOM">
     <loadEventList seeded="false">
@@ -553,6 +560,10 @@
         <!-- C&C Weapons: Renegade Collection -->
         <event req="ACH ACH_BOON_NUKE">
             <loadEvent>BOON_SELECT_NUKE</loadEvent>
+        </event>
+        <!-- FTL: Fishier Than Light -->
+        <event req="ACH ACH_BOON_FISH">
+            <loadEvent>BOON_SELECT_FISH</loadEvent>
         </event>
     </loadEventList>
 </event>
