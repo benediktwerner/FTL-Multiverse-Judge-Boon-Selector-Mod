@@ -1,8 +1,6 @@
 # FTL Multiverse Judge Boon Selector Mod
 
-[Download for Multiverse 5.4](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.4.0/Multiverse.Judge.Boon.Selector.ftl)
-
-[Download for Multiverse 5.3](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.0.1/Multiverse.Judge.Boon.Selector.ftl)
+[Download for Multiverse 5.4](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.5.0/Multiverse.Judge.Boon.Selector.ftl)
 
 [Multiverse Forum Thread](https://ftlmultiverse.boards.net/thread/45/judge-boon-selector-mod)
 
@@ -20,7 +18,8 @@ For this to work properly, make Judge Boon Selector is patched after them i.e. i
 
 ### Changelog
 
-- v1.4 Add support for Forgemaster and C&C Weapons: Renegade Collection boons
+- v1.5 Add support for FTL: Fishier Than Light boons (thanks to @arcburnergit)
+- v1.4 Add support for Forgemaster (thanks to @SansCipher) and C&C Weapons: Renegade Collection boons
 - v1.3 Add support for Forgotten Diamonds boons
 - v1.2 Add support for Forgotten Races and Insurrection+ Selection (IPS) boons
 - v1.1 Update to Multiverse 5.4
