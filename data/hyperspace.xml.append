@@ -97,6 +97,8 @@
         <name>ACH ACH_BOON_FM_TERMINUS</name>
         <!-- C&C Weapons: Renegade Collection -->
         <name>ACH ACH_BOON_NUKE</name>
+        <!-- FTL: Fishier Than Light -->
+        <name>ACH ACH_BOON_FISH</name>
     </req>
     <req name="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
         <name>ACH ACH_FR_BOON_SALT</name>
