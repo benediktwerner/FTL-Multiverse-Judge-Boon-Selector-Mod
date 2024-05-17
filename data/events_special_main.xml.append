@@ -386,33 +386,33 @@
         </event>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_FM_FORGEWEAPON_2">
-        <text> Greater Blessing of Forges (The Forgemaster's store will contain more and better crafting materials)</text>
+        <text>Greater Blessing of Forges (The Forgemaster's store will contain more and better crafting materials)</text>
         <event>
             <loadEvent>BOON_SELECT_FM_FORGEWEAPON_2</loadEvent>
         </event>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_FM_ANCWEAPON">
-        <text> Blessing of the Foolhardy (Ancalagon crystals gain 50% damage resistance)</text>
+        <text>Blessing of the Foolhardy (Ancalagon crystals gain 50% damage resistance)</text>
         <event>
             <loadEvent>BOON_SELECT_FM_ANCWEAPON</loadEvent>
         </event>
     </choice>
     <choice hidden="true" req="ACH ACH_BOON_FM_TERMINUS">
-        <text> Blessing of Twistedness (All crew stats are raised by 5%, most ship stats are increased by 5%)</text>
+        <text>Blessing of Twistedness (All crew stats are raised by 5%, most ship stats are increased by 5%)</text>
         <event>
             <loadEvent>BOON_SELECT_FM_TERMINUS</loadEvent>
         </event>
     </choice>
     <!-- C&C Weapons: Renegade Collection -->
     <choice hidden="true" req="ACH ACH_BOON_NUKE">
-        <text> Blessing of Nukes (You may choose to receive a free missile at empty beacons)</text>
+        <text>Blessing of Nukes (You may choose to receive a free missile at empty beacons)</text>
         <event>
             <loadEvent>BOON_SELECT_NUKE</loadEvent>
         </event>
     </choice>
     <!-- FTL: Fishier Than Light -->
     <choice hidden="true" req="ACH ACH_BOON_FISH">
-        <text> Blessing of Fish (You won't fish up junk during fishing)</text>
+        <text>Blessing of Fish (You won't fish up junk during fishing)</text>
         <event>
             <loadEvent>BOON_SELECT_FISH</loadEvent>
         </event>
