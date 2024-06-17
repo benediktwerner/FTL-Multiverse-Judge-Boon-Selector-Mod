@@ -1,6 +1,6 @@
 # FTL Multiverse Judge Boon Selector Mod
 
-[Download for Multiverse 5.4](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.5.0/Multiverse.Judge.Boon.Selector.ftl)
+[Download for Multiverse 5.4](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.6.0/Multiverse.Judge.Boon.Selector.ftl)
 
 [Multiverse Forum Thread](https://ftlmultiverse.boards.net/thread/45/judge-boon-selector-mod)
 
@@ -12,13 +12,17 @@ This obviously can screw with the balance a bit since some boons are rather OP b
 
 ## Compatibility with other Multiverse addons
 
-Currently, boons from Forgotten Races, Forgotten Diamonds, Insurrection+ Selection (IPS), Forgemaster, C&C Weapons: Renegade Collection, and FTL: Fishier Than Light are supported.
+Currently, boons from Forgotten Races, Forgotten Diamonds, Insurrection+ Selection (IPS), Forgemaster, C&C Weapons: Renegade Collection, and Fishier Than Light are supported.
 
 For this to work properly, make Judge Boon Selector is patched after them i.e. is lower in the patch order in Slipstream.
 
 ### Changelog
 
-- v1.5 Add support for FTL: Fishier Than Light boons (thanks to @arcburnergit)
+- v1.6
+  - Add support for the new "Boon of The Precursors" (for Spherax) from Forgotten Races (thanks to @BBHood217)
+  - Add support for the new "Boon of Virtuality" from IPS (thanks to @BBHood217)
+  - Fix some typos (thanks to @BBHood217)
+- v1.5 Add support for Fishier Than Light boons (thanks to @arcburnergit)
 - v1.4 Add support for Forgemaster (thanks to @SansCipher) and C&C Weapons: Renegade Collection boons
 - v1.3 Add support for Forgotten Diamonds boons
 - v1.2 Add support for Forgotten Races and Insurrection+ Selection (IPS) boons

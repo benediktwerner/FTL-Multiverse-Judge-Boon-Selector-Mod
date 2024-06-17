@@ -316,6 +316,12 @@
             <loadEvent>BOON_SELECT_FR_WITHER_WEAPON</loadEvent>
         </event>
     </choice>
+    <choice hidden="true" req="ACH ACH_FR_BOON_SPHERAX">
+        <text>Boon of The Precursors (Your Spherax crew become immune to stuns)</text>
+        <event>
+            <loadEvent>BOON_SELECT_FR_SPHERAX</loadEvent>
+        </event>
+    </choice>
     <!-- Forgotten Diamonds -->
     <choice hidden="true" req="ACH ACH_FR_BOON_DIAMOND">
         <text>Boon of The Diamonds (Your metal diamond crew can phase through doors and gain 20% movement speed)</text>
@@ -330,7 +336,7 @@
         </event>
     </choice>
     <choice hidden="true" req="ACH ACH_FR_BOON_METAL_LANIUS">
-        <text>Boon of Alloys (All Metal Lanius Crew resist mind control can see adjacent rooms)</text>
+        <text>Boon of Alloys (All Metal Lanius Crew resist mind control and can see adjacent rooms)</text>
         <event>
             <loadEvent>BOON_SELECT_FR_METAL_LANIUS</loadEvent>
         </event>
@@ -354,6 +360,12 @@
         </event>
     </choice>
     <!-- IPS -->
+    <choice hidden="true" req="ACH ACH_IPS_BOON_HOLO">
+        <text>Boon of Virtuality (Gain a hologram crew)</text>
+        <event>
+            <loadEvent>BOON_SELECT_IPS_HOLO</loadEvent>
+        </event>
+    </choice>
     <choice hidden="true" req="ACH ACH_IPS_BOON_SONA">
         <text>Boon of Explorers (Your cruiser immediately acquires the Anomaly Detector)</text>
         <event>
@@ -410,9 +422,9 @@
             <loadEvent>BOON_SELECT_NUKE</loadEvent>
         </event>
     </choice>
-    <!-- FTL: Fishier Than Light -->
+    <!-- Fishier Than Light -->
     <choice hidden="true" req="ACH ACH_BOON_FISH">
-        <text>Blessing of Fish (You won't fish up junk during fishing)</text>
+        <text>Blessing of Fish (Never fish up junk items)</text>
         <event>
             <loadEvent>BOON_SELECT_FISH</loadEvent>
         </event>
@@ -512,6 +524,9 @@
         <event req="ACH ACH_FR_BOON_WITHER_GUN">
             <loadEvent>BOON_SELECT_FR_WITHER_WEAPON</loadEvent>
         </event>
+        <event req="ACH ACH_FR_BOON_SPHERAX">
+            <loadEvent>BOON_SELECT_FR_SPHERAX</loadEvent>
+        </event>
         <!-- Forgotten Diamonds -->
         <event req="ACH ACH_FR_BOON_DIAMOND">
             <loadEvent>BOON_SELECT_FR_DIAMOND</loadEvent>
@@ -532,6 +547,9 @@
             <loadEvent>BOON_SELECT_FR_ADAMANTINE</loadEvent>
         </event>
         <!-- IPS -->
+        <event req="ACH ACH_IPS_BOON_HOLO">
+            <loadEvent>BOON_SELECT_IPS_HOLO</loadEvent>
+        </event>
         <event req="ACH ACH_IPS_BOON_SONA">
             <loadEvent>BOON_SELECT_IPS_SONA</loadEvent>
         </event>
@@ -561,7 +579,7 @@
         <event req="ACH ACH_BOON_NUKE">
             <loadEvent>BOON_SELECT_NUKE</loadEvent>
         </event>
-        <!-- FTL: Fishier Than Light -->
+        <!-- Fishier Than Light -->
         <event req="ACH ACH_BOON_FISH">
             <loadEvent>BOON_SELECT_FISH</loadEvent>
         </event>

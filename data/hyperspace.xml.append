@@ -78,14 +78,16 @@
         <name>ACH ACH_FR_BOON_SALT_GUN</name>
         <name>ACH ACH_FR_BOON_HAUNT_GUN</name>
         <name>ACH ACH_FR_BOON_WITHER_GUN</name>
+        <name>ACH ACH_FR_BOON_SPHERAX</name>
         <!-- Forgotten Diamonds -->
-        <name>ACH_FR_BOON_DIAMOND</name>
-        <name>ACH_FR_BOON_OPERATOR</name>
-        <name>ACH_FR_BOON_METAL_LANIUS</name>
-        <name>ACH_FR_BOON_GOLDEN</name>
-        <name>ACH_FR_BOON_COPPER</name>
-        <name>ACH_FR_BOON_ADAMANTINE</name>
+        <name>ACH ACH_FR_BOON_DIAMOND</name>
+        <name>ACH ACH_FR_BOON_OPERATOR</name>
+        <name>ACH ACH_FR_BOON_METAL_LANIUS</name>
+        <name>ACH ACH_FR_BOON_GOLDEN</name>
+        <name>ACH ACH_FR_BOON_COPPER</name>
+        <name>ACH ACH_FR_BOON_ADAMANTINE</name>
         <!-- IPS -->
+        <name>ACH ACH_IPS_BOON_HOLO</name>
         <name>ACH ACH_IPS_BOON_SONA</name>
         <name>ACH ACH_IPS_BOON_TECH</name>
         <!-- Forgemaster -->
@@ -97,7 +99,7 @@
         <name>ACH ACH_BOON_FM_TERMINUS</name>
         <!-- C&C Weapons: Renegade Collection -->
         <name>ACH ACH_BOON_NUKE</name>
-        <!-- FTL: Fishier Than Light -->
+        <!-- Fishier Than Light -->
         <name>ACH ACH_BOON_FISH</name>
     </req>
     <req name="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
