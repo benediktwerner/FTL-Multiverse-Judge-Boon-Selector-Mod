@@ -14,7 +14,7 @@ This obviously can screw with the balance a bit since some boons are rather OP b
 
 Currently, boons from Forgotten Races, Forgotten Diamonds, Insurrection+ Selection (IPS), Forgemaster, C&C Weapons: Renegade Collection, and Fishier Than Light are supported.
 
-For this to work properly, make Judge Boon Selector is patched after them i.e. is lower in the patch order in Slipstream.
+For this to work properly, make sure Judge Boon Selector is patched after them i.e. is lower in the patch order in Slipstream.
 
 ### Changelog
 
