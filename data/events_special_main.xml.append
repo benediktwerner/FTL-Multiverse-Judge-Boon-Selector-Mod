@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <mod:findName type="event" name="BOON_SELECT" panic="true">
     <mod:setAttributes name="BOON_SELECT_LAST_RUN" />
 </mod:findName>
@@ -378,6 +379,13 @@
             <loadEvent>BOON_SELECT_IPS_TECH</loadEvent>
         </event>
     </choice>
+    <!-- Annelids, Isolated. Part of IPS technically -->
+    <choice hidden="true" req="ACH ACH_IPS_BOON_ANNELID">
+        <text>Boon of Annelids (Gain an annelid crew)</text>
+        <event>
+            <loadEvent>BOON_SELECT_IPS_ANNELID</loadEvent>
+        </event>
+    </choice>
     <!-- Forgemaster -->
     <choice hidden="true" req="ACH ACH_BOON_FM_PLATED">
         <text>Boon of Plated (All Plated crew gain +1 Ability charge)</text>
@@ -427,6 +435,25 @@
         <text>Blessing of Fish (Never fish up junk items)</text>
         <event>
             <loadEvent>BOON_SELECT_FISH</loadEvent>
+        </event>
+    </choice>
+    <!-- Darkest Desire -->
+    <choice hidden="true" req="ACH ACH_BOON_DEEPONE">
+        <text>Boon of the Deep (Enemies on your ship move 10% slower)</text>
+        <event>
+            <loadEvent>BOON_SELECT_DEEPONE</loadEvent>
+        </event>
+    </choice>
+	<choice hidden="true" req="ACH ACH_BOON_DEEPONE_EQUIPMENT">
+        <text>Blessing of Dread (20% chance to resist ion damage)</text>
+        <event>
+            <loadEvent>BOON_SELECT_DEEPONE_EQUIPMENT</loadEvent>
+        </event>
+    </choice>
+	<choice hidden="true" req="ACH ACH_BOON_DISPARITY_EQUIPMENT">
+        <text>Blessing of Ravenous Darkness (10 bonus health to Hungering Shadows)</text>
+        <event>
+            <loadEvent>BOON_SELECT_DISPARITY_EQUIPMENT</loadEvent>
         </event>
     </choice>
 </event>
@@ -556,6 +583,10 @@
         <event req="ACH ACH_IPS_BOON_TECH">
             <loadEvent>BOON_SELECT_IPS_TECH</loadEvent>
         </event>
+        <!-- Annelids, Isolated. Part of IPS technically -->
+        <event req="ACH ACH_IPS_BOON_ANNELID">
+            <loadEvent>BOON_SELECT_IPS_ANNELID</loadEvent>
+        </event>
         <!-- Forgemaster -->
         <event req="ACH ACH_BOON_FM_PLATED">
             <loadEvent>BOON_SELECT_FM_PLATED</loadEvent>
@@ -582,6 +613,16 @@
         <!-- Fishier Than Light -->
         <event req="ACH ACH_BOON_FISH">
             <loadEvent>BOON_SELECT_FISH</loadEvent>
+        </event>
+        <!-- Darkest Desire -->
+        <event req="ACH ACH_BOON_DEEPONE">
+            <loadEvent>BOON_SELECT_DEEPONE</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_DEEPONE_EQUIPMENT">
+            <loadEvent>BOON_SELECT_DEEPONE_EQUIPMENT</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_DISPARITY_EQUIPMENT">
+            <loadEvent>BOON_SELECT_DISPARITY_EQUIPMENT</loadEvent>
         </event>
     </loadEventList>
 </event>
