@@ -1,6 +1,6 @@
 # FTL Multiverse Judge Boon Selector Mod
 
-[Download for Multiverse 5.4](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.6.0/Multiverse.Judge.Boon.Selector.ftl)
+[Download for Multiverse 5.4](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.7.0/Multiverse.Judge.Boon.Selector.ftl)
 
 [Multiverse Forum Thread](https://ftlmultiverse.boards.net/thread/45/judge-boon-selector-mod)
 
