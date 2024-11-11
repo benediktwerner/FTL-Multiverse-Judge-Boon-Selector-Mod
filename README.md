@@ -12,12 +12,15 @@ This obviously can screw with the balance a bit since some boons are rather OP b
 
 ## Compatibility with other Multiverse addons
 
-Currently, boons from Forgotten Races, Forgotten Diamonds, Insurrection+ Selection (IPS), Forgemaster, C&C Weapons: Renegade Collection, and Fishier Than Light are supported.
+Currently, boons from Forgotten Races, Forgotten Diamonds, Insurrection+ Selection (IPS), Forgemaster, C&C Weapons: Renegade Collection, Fishier Than Light, Darkest Desire, and Annelids, Isolated are supported.
 
 For this to work properly, make sure Judge Boon Selector is patched after them i.e. is lower in the patch order in Slipstream.
 
 ### Changelog
 
+- v1.7 (by @neopryne)
+  - Add support for Darkest Desire 
+  - Add support for Annelids, Isolated
 - v1.6
   - Add support for the new "Boon of The Precursors" (for Spherax) from Forgotten Races (thanks to @BBHood217)
   - Add support for the new "Boon of Virtuality" from IPS (thanks to @BBHood217)

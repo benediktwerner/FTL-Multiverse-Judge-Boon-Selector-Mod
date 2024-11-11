@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <mod:findLike type="events">
     <mod:findName type="req" name="ANY_BOON">
         <mod:setAttributes name="ANY_BOON_LAST_RUN" />
@@ -90,6 +91,8 @@
         <name>ACH ACH_IPS_BOON_HOLO</name>
         <name>ACH ACH_IPS_BOON_SONA</name>
         <name>ACH ACH_IPS_BOON_TECH</name>
+        <!-- Annelids, Isolated. Part of IPS technically -->
+        <name>ACH ACH_IPS_BOON_ANNELID</name>
         <!-- Forgemaster -->
         <name>ACH ACH_BOON_FM_PLATED</name>
         <name>ACH ACH_BOON_FM_FORGEARMOR</name>
@@ -101,6 +104,10 @@
         <name>ACH ACH_BOON_NUKE</name>
         <!-- Fishier Than Light -->
         <name>ACH ACH_BOON_FISH</name>
+        <!-- Darkest Desire -->
+        <name>ACH ACH_BOON_DEEPONE</name>
+        <name>ACH ACH_BOON_DEEPONE_EQUIPMENT</name>
+        <name>ACH ACH_BOON_DISPARITY_EQUIPMENT</name>
     </req>
     <req name="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
         <name>ACH ACH_FR_BOON_SALT</name>
