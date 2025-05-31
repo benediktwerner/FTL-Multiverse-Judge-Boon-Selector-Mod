@@ -456,6 +456,67 @@
             <loadEvent>BOON_SELECT_DISPARITY_EQUIPMENT</loadEvent>
         </event>
     </choice>
+    <!-- Outer Expansion -->
+    <choice hidden="true" req="ACH ACH_BOON_AEA_ACID">
+        <text>Boon of Growth (Acidic crew heal twice as fast and cannot be stunned)</text>
+        <event>
+            <loadEvent>BOON_SELECT_AEA_ACID</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_AEA_BIRD">
+        <text>Boon of Feathers (Gi crew gain an additional 0.25x to their auto repair speed)</text>
+        <event>
+            <loadEvent>BOON_SELECT_AEA_BIRD</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_AEA_CULT">
+        <text>Boon of Worship (Vampweed Cultists do 25% more ranged damage)</text>
+        <event>
+            <loadEvent>BOON_SELECT_AEA_CULT</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_AEA_NECRO">
+        <text>Boon of Resurrection (Gain 1 Nanite Swarm each jump)</text>
+        <event>
+            <loadEvent>BOON_SELECT_AEA_NECRO</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_AEA_SHARD">
+        <text>Boon of Shattering (Shard-Forged crew do 25% additional sabotage damage)</text>
+        <event>
+            <loadEvent>BOON_SELECT_AEA_SHARD</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_AEA_SHLEG">
+        <text>Boon of Molluscs (Anarchist Shells gain mind control immunity and Anarchist slugs gain 10% damage resistance)</text>
+        <event>
+            <loadEvent>BOON_SELECT_AEA_SHLEG</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_AEA_JUSTICE">
+        <text>Boon of Offerings (The Dark Justicier heals 5hp/s while performing a ritual)</text>
+        <event>
+            <loadEvent>BOON_SELECT_AEA_JUSTICE</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_AEA_OLD">
+        <text>Boon of Coadunation (Lylmik Crew gain 10% damage bonus per enemy crew)</text>
+        <event>
+            <loadEvent>BOON_SELECT_AEA_OLD</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_AEA_SUPER_SHIELDS">
+        <text>Grant of Auxiliary Shielding (Add 1 energy shield layer after jump)</text>
+        <event>
+            <loadEvent>BOON_SELECT_AEA_SUPER_SHIELD</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_AEA_CLONE_CRIME">
+        <text>Grant of Illegally Modified Clonebay (Spawn a weak generic crewmember with a 20 second lifespan onboard your ship after every jump)</text>
+        <event>
+            <loadEvent>BOON_SELECT_AEA_CLONE_CRIME</loadEvent>
+        </event>
+    </choice>
 </event>
 <event name="BOON_SELECT_RANDOM">
     <loadEventList seeded="false">
@@ -623,6 +684,37 @@
         </event>
         <event req="ACH ACH_BOON_DISPARITY_EQUIPMENT">
             <loadEvent>BOON_SELECT_DISPARITY_EQUIPMENT</loadEvent>
+        </event>
+        <!-- Outer Expansion -->
+        <event req="ACH ACH_BOON_AEA_ACID">
+            <loadEvent>BOON_SELECT_AEA_ACID</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_AEA_BIRD">
+            <loadEvent>BOON_SELECT_AEA_BIRD</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_AEA_CULT">
+            <loadEvent>BOON_SELECT_AEA_CULT</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_AEA_NECRO">
+            <loadEvent>BOON_SELECT_AEA_NECRO</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_AEA_SHARD">
+            <loadEvent>BOON_SELECT_AEA_SHARD</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_AEA_SHLEG">
+            <loadEvent>BOON_SELECT_AEA_SHLEG</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_AEA_JUSTICE">
+            <loadEvent>BOON_SELECT_AEA_JUSTICE</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_AEA_OLD">
+            <loadEvent>BOON_SELECT_AEA_OLD</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_AEA_SUPER_SHIELDS">
+            <loadEvent>BOON_SELECT_AEA_SUPER_SHIELD</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_AEA_CLONE_CRIME">
+            <loadEvent>BOON_SELECT_AEA_CLONE_CRIME</loadEvent>
         </event>
     </loadEventList>
 </event>

@@ -108,6 +108,17 @@
         <name>ACH ACH_BOON_DEEPONE</name>
         <name>ACH ACH_BOON_DEEPONE_EQUIPMENT</name>
         <name>ACH ACH_BOON_DISPARITY_EQUIPMENT</name>
+        <!-- Outer Expansion -->
+        <name>ACH ACH_BOON_AEA_ACID</name>
+        <name>ACH ACH_BOON_AEA_BIRD</name>
+        <name>ACH ACH_BOON_AEA_CULT</name>
+        <name>ACH ACH_BOON_AEA_NECRO</name>
+        <name>ACH ACH_BOON_AEA_SHARD</name>
+        <name>ACH ACH_BOON_AEA_SHLEG</name>
+        <name>ACH ACH_BOON_AEA_JUSTICE</name>
+        <name>ACH ACH_BOON_AEA_OLD</name>
+        <name>ACH ACH_BOON_AEA_SUPER_SHIELDS</name>
+        <name>ACH ACH_BOON_AEA_CLONE_CRIME</name>
     </req>
     <req name="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
         <name>ACH ACH_FR_BOON_SALT</name>
