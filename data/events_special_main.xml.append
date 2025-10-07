@@ -553,6 +553,37 @@
             <loadEvent>BOON_SELECT_AEA_CLONE_CRIME</loadEvent>
         </event>
     </choice>
+    <!-- Lily's Innovations -->
+    <choice hidden="true" req="ACH ACH_BOON_LILY_ABLATIVE_ARMOR">
+        <text>Grant of Ablation (Repair 1 Hull point for free every jump)</text>
+        <event>
+            <loadEvent>BOON_SELECT_LILY_ABLATIVE_ARMOR</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_LILY_TARGETING_CORE">
+        <text>Grant of Targeting (Grants +10 extra accuracy to all your weapons and drones)</text>
+        <event>
+            <loadEvent>BOON_SELECT_LILY_TARGETING_CORE</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_LILY_INFUSION_BAY">
+        <text>Grant of Infusion (x0.75 max health and x0.5 all damage taken in your medical facilities)</text>
+        <event>
+            <loadEvent>BOON_SELECT_LILY_INFUSION_BAY</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_LILY_SHOCK_NEUTRALIZER">
+        <text>Grant of Neutralization (Ion timers on your ship dissipate 10% faster)</text>
+        <event>
+            <loadEvent>BOON_SELECT_LILY_SHOCK_NEUTRALIZER</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_LILY_SYSTEM_BRACERS">
+        <text>Grant of Bracing (System Bracers repair speed penalty is removed)</text>
+        <event>
+            <loadEvent>BOON_SELECT_LILY_SYSTEM_BRACERS</loadEvent>
+        </event>
+    </choice>
 </event>
 <event name="BOON_SELECT_RANDOM">
     <loadEventList seeded="false">
@@ -769,6 +800,22 @@
         </event>
         <event req="ACH ACH_BOON_AEA_CLONE_CRIME">
             <loadEvent>BOON_SELECT_AEA_CLONE_CRIME</loadEvent>
+        </event>
+        <!-- Lily's Innovations -->
+        <event req="ACH ACH_BOON_LILY_ABLATIVE_ARMOR">
+            <loadEvent>BOON_SELECT_LILY_ABLATIVE_ARMOR</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_LILY_TARGETING_CORE">
+            <loadEvent>BOON_SELECT_LILY_TARGETING_CORE</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_LILY_INFUSION_BAY">
+            <loadEvent>BOON_SELECT_LILY_INFUSION_BAY</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_LILY_SHOCK_NEUTRALIZER">
+            <loadEvent>BOON_SELECT_LILY_SHOCK_NEUTRALIZER</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_LILY_SYSTEM_BRACERS">
+            <loadEvent>BOON_SELECT_LILY_SYSTEM_BRACERS</loadEvent>
         </event>
     </loadEventList>
 </event>
