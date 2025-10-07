@@ -5,14 +5,14 @@
     <![CDATA[ https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod ]]>
   </threadUrl>
   <author>1vader</author>
-  <version>1.8.0</version>
+  <version>1.9.0</version>
   <description>
     <![CDATA[ 
 Allows you to select any of the Judge Boons at the start of a run, provided you have unlocked/received them at least once.
 
 Requires Multiverse to be installed and this needs to be patched after Multiverse.
 
-Patch after any other add-ons that add boons, specifically: Forgotten Races, Forgotten Diamonds, Insurrection+ Selection, Forgemaster, C&C Weapons: Renegade Collection, Fishier Than Light, Darkest Desire, Annelids Isolated, Outer Expansion.
+Patch after any other add-ons that add boons, specifically: Forgotten Races, Forgotten Diamonds, Insurrection+ Selection, Forgemaster, C&C Weapons: Renegade Collection, Fishier Than Light, Darkest Desire, Annelids Isolated, Outer Expansion, Lily's Innovations.
 ]]>
   </description>
 </metadata>
