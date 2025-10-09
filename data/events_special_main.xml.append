@@ -584,6 +584,31 @@
             <loadEvent>BOON_SELECT_LILY_SYSTEM_BRACERS</loadEvent>
         </event>
     </choice>
+    <!-- Alder's Additions -->
+    <choice hidden="true" req="ACH AA_ACH_BOON_DUSTWORM">
+        <text>Boon of Worms (Gain a Dustworm Crew)</text>
+        <event>
+            <loadEvent>AA_BOON_SELECT_DUSTWORM</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH AA_ACH_BOON_DISRUPTOR">
+        <text>Blessing of Insulation (Free Ion Field upgrade (50% Ion Resistance))</text>
+        <event>
+            <loadEvent>AA_BOON_SELECT_DISRUPTOR</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH AA_ACH_BOON_INFUSER">
+        <text>Blessing of Empowerment (Your Weapons system naturally has 2 bars of power)</text>
+        <event>
+            <loadEvent>AA_BOON_SELECT_INFUSER</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH AA_ACH_BOON_IMAGINATOR">
+        <text>Blessing of Imagination (At the start of each fight, you can choose to fire an Imaginator beam)</text>
+        <event>
+            <loadEvent>AA_BOON_SELECT_WONDER</loadEvent>
+        </event>
+    </choice>
 </event>
 <event name="BOON_SELECT_RANDOM">
     <loadEventList seeded="false">
@@ -816,6 +841,19 @@
         </event>
         <event req="ACH ACH_BOON_LILY_SYSTEM_BRACERS">
             <loadEvent>BOON_SELECT_LILY_SYSTEM_BRACERS</loadEvent>
+        </event>
+        <!-- Alder's Additions -->
+        <event req="ACH AA_ACH_BOON_DUSTWORM">
+            <loadEvent>AA_BOON_SELECT_DUSTWORM</loadEvent>
+        </event>
+        <event req="ACH AA_ACH_BOON_DISRUPTOR">
+            <loadEvent>AA_BOON_SELECT_DISRUPTOR</loadEvent>
+        </event>
+        <event req="ACH AA_ACH_BOON_INFUSER">
+            <loadEvent>AA_BOON_SELECT_INFUSER</loadEvent>
+        </event>
+        <event req="ACH AA_ACH_BOON_IMAGINATOR">
+            <loadEvent>AA_BOON_SELECT_WONDER</loadEvent>
         </event>
     </loadEventList>
 </event>

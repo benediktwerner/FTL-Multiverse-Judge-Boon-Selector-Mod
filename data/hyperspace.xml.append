@@ -126,11 +126,17 @@
         <name>ACH ACH_BOON_AEA_SUPER_SHIELDS</name>
         <name>ACH ACH_BOON_AEA_CLONE_CRIME</name>
         <!-- Lily's Innovations -->
-        <name>ACH_BOON_LILY_ABLATIVE_ARMOR</name>
-        <name>ACH_BOON_LILY_TARGETING_CORE</name>
-        <name>ACH_BOON_LILY_INFUSION_BAY</name>
-        <name>ACH_BOON_LILY_SHOCK_NEUTRALIZER</name>
-        <name>ACH_BOON_LILY_SYSTEM_BRACERS</name>
+        <name>ACH ACH_BOON_LILY_ABLATIVE_ARMOR</name>
+        <name>ACH ACH_BOON_LILY_TARGETING_CORE</name>
+        <name>ACH ACH_BOON_LILY_INFUSION_BAY</name>
+        <name>ACH ACH_BOON_LILY_SHOCK_NEUTRALIZER</name>
+        <name>ACH ACH_BOON_LILY_SYSTEM_BRACERS</name>
+        <!-- Alder's Additions -->
+        <name>ACH AA_ACH_BOON_DUSTWORM</name>
+        <name>ACH AA_ACH_BOON_DISRUPTOR</name>
+        <name>ACH AA_ACH_BOON_INFUSER</name>
+        <name>ACH AA_ACH_BOON_IMAGINATOR</name>
+        
     </req>
     <req name="JUDGE_BOON_SELECTOR_ANY_ACH_FR_SALT_CREW">
         <name>ACH ACH_FR_BOON_SALT</name>
