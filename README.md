@@ -1,6 +1,6 @@
 # FTL Multiverse Judge Boon Selector Mod
 
-[Download for Multiverse 5.4+](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.9.0/Multiverse.Judge.Boon.Selector.ftl)
+[Download for Multiverse 5.4+](https://github.com/benediktwerner/FTL-Multiverse-Judge-Boon-Selector-Mod/releases/download/v1.10.0/Multiverse.Judge.Boon.Selector.ftl)
 
 [Multiverse Forum Thread](https://ftlmultiverse.boards.net/thread/45/judge-boon-selector-mod)
 
@@ -12,16 +12,17 @@ This obviously can screw with the balance a bit since some boons are rather OP b
 
 ## Compatibility with other Multiverse addons
 
-Currently, boons from Forgotten Races, Forgotten Diamonds, Insurrection+ Selection (IPS), Forgemaster, C&C Weapons: Renegade Collection, Fishier Than Light, Darkest Desire, Outer Expansion, and Lily's Innovations are supported.
+Currently, boons from Forgotten Races, Forgotten Diamonds, Insurrection+ Selection (IPS), Forgemaster, C&C Weapons: Renegade Collection, Fishier Than Light, Darkest Desire, Outer Expansion, Lily's Innovations, and Alder's Additions are supported.
 
 For this to work properly, make sure Judge Boon Selector is patched after them i.e. is lower in the patch order in Slipstream.
 
 ### Changelog
 
+- v1.10 Add support for Alder's Additions boons (thanks to @Duodecimus)
 - v1.9 Add support for Lily's Innovations and new Darkest Desire boons
 - v1.8 Add support for Outer Expansion boons
 - v1.7.1 Fix compatibility with the latest Forgotten Races version (Haunted got renamed to Revenant)
-- v1.7 (by @neopryne)
+- v1.7 (thanks to @neopryne)
   - Add support for Darkest Desire
   - Add support for Annelids boon from IPS
 - v1.6
