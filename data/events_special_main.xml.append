@@ -584,6 +584,61 @@
             <loadEvent>BOON_SELECT_LILY_SYSTEM_BRACERS</loadEvent>
         </event>
     </choice>
+    <choice hidden="true" req="ACH ACH_BOON_LILY_ECM_SUITE">
+        <text>Grant of ECM (-10% enemy weapon reload speed and -20% enemy shield recharge speed)</text>
+        <event>
+            <loadEvent>BOON_SELECT_LILY_ECM_SUITE</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_LILY_FIBER_LINER">
+        <text>Grant of Fibers (Your crew takes x0.85 damage from all sources)</text>
+        <event>
+            <loadEvent>BOON_SELECT_LILY_FIBER_LINER</loadEvent>
+        </event>
+    </choice>
+    <!-- RadiKal Sector -->
+    <choice hidden="true" req="ACH ACH_BOON_RK_BAM_CREW">
+        <text>Boon of The RadiKal Bam (RadiKal crew gain 29 health and 1.1x combat damage)</text>
+        <event>
+            <loadEvent>BOON_SELECT_RK_BAM_CREW</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_RK_PUNK_CREW">
+        <text>Boon of The RadiKal Punk (RadiKal crew gain 40% faster healing and cloning)</text>
+        <event>
+            <loadEvent>BOON_SELECT_RK_PUNK_CREW</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_RK_SCORCH_CREW">
+        <text>Boon of The RadiKal Scorch (RadiKal crew gain 1.3x movement speed and combat damage in fire)</text>
+        <event>
+            <loadEvent>BOON_SELECT_RK_SCORCH_CREW</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_RK_BAM_EQUIPMENT">
+        <text>Blessing of RadiKal Toughness (+8% chance to resist hull, system and ion damage from enemy weapons)</text>
+        <event>
+            <loadEvent>BOON_SELECT_RK_BAM_EQUIPMENT</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_RK_PUNK_EQUIPMENT">
+        <text>Blessing of RadiKal Cunning (Systems are repaired at x1.3 speed)</text>
+        <event>
+            <loadEvent>BOON_SELECT_RK_PUNK_EQUIPMENT</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_RK_SCORCH_EQUIPMENT">
+        <text>Blessing of RadiKal Fever (+8% weapon charge speed and evasion)</text>
+        <event>
+            <loadEvent>BOON_SELECT_RK_SCORCH_EQUIPMENT</loadEvent>
+        </event>
+    </choice>
+    <choice hidden="true" req="ACH ACH_BOON_RK_BPS_EQUIPMENT">
+        <text>Blessing of RadiKal Projects (+4% chance to resist hull, system and ion damage from enemy weapons, x1.15 system repair speed, +4% weapon charge speed and evasion)</text>
+        <event>
+            <loadEvent>BOON_SELECT_RK_BPS_EQUIPMENT</loadEvent>
+        </event>
+    </choice>
     <!-- Alder's Additions -->
     <choice hidden="true" req="ACH AA_ACH_BOON_DUSTWORM">
         <text>Boon of Worms (Gain a Dustworm Crew)</text>
@@ -841,6 +896,34 @@
         </event>
         <event req="ACH ACH_BOON_LILY_SYSTEM_BRACERS">
             <loadEvent>BOON_SELECT_LILY_SYSTEM_BRACERS</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_LILY_ECM_SUITE">
+            <loadEvent>BOON_SELECT_LILY_ECM_SUITE</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_LILY_FIBER_LINER">
+            <loadEvent>BOON_SELECT_LILY_FIBER_LINER</loadEvent>
+        </event>
+        <!-- RadiKal Sector -->
+        <event req="ACH ACH_BOON_RK_BAM_CREW">
+            <loadEvent>BOON_SELECT_RK_BAM_CREW</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_RK_PUNK_CREW">
+            <loadEvent>BOON_SELECT_RK_PUNK_CREW</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_RK_SCORCH_CREW">
+            <loadEvent>BOON_SELECT_RK_SCORCH_CREW</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_RK_BAM_EQUIPMENT">
+            <loadEvent>BOON_SELECT_RK_BAM_EQUIPMENT</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_RK_PUNK_EQUIPMENT">
+            <loadEvent>BOON_SELECT_RK_PUNK_EQUIPMENT</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_RK_SCORCH_EQUIPMENT">
+            <loadEvent>BOON_SELECT_RK_SCORCH_EQUIPMENT</loadEvent>
+        </event>
+        <event req="ACH ACH_BOON_RK_BPS_EQUIPMENT">
+            <loadEvent>BOON_SELECT_RK_BPS_EQUIPMENT</loadEvent>
         </event>
         <!-- Alder's Additions -->
         <event req="ACH AA_ACH_BOON_DUSTWORM">

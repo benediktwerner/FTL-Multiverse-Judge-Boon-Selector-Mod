@@ -131,6 +131,16 @@
         <name>ACH ACH_BOON_LILY_INFUSION_BAY</name>
         <name>ACH ACH_BOON_LILY_SHOCK_NEUTRALIZER</name>
         <name>ACH ACH_BOON_LILY_SYSTEM_BRACERS</name>
+        <name>ACH ACH_BOON_LILY_ECM_SUITE</name>
+        <name>ACH ACH_BOON_LILY_FIBER_LINER</name>
+        <!-- RadiKal Sector -->
+        <name>ACH ACH_BOON_RK_BAM_CREW</name>
+        <name>ACH ACH_BOON_RK_PUNK_CREW</name>
+        <name>ACH ACH_BOON_RK_SCORCH_CREW</name>
+        <name>ACH ACH_BOON_RK_BAM_EQUIPMENT</name>
+        <name>ACH ACH_BOON_RK_PUNK_EQUIPMENT</name>
+        <name>ACH ACH_BOON_RK_SCORCH_EQUIPMENT</name>
+        <name>ACH ACH_BOON_RK_BPS_EQUIPMENT</name>
         <!-- Alder's Additions -->
         <name>ACH AA_ACH_BOON_DUSTWORM</name>
         <name>ACH AA_ACH_BOON_DISRUPTOR</name>
